@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f4f7;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.main-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 72px 0 120px 0;
+}
+.main-container {
+    display: flex;
+    margin: 0 216px;
+    max-width: 980px;
+    height: 520px;
+    padding-top: 16px; 
+    padding-right: 06px;
+}
+.side-1 {
+    width: 585px;
+}
+
+
+.fb-contain {
+    display: inline-block;
+    width: 448px;
+    padding-top: 112px;
+    padding-bottom: 16px;
+}
+.fb-name {
+    position: relative;
+    margin-left: -28px;
+    margin-bottom: -28px;
+    height : 106px;
+}
+.desc {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    padding: 0 0 20px;
+}
+
+.side-2{
+    width: 396px;
+    height: 496px;
+    margin-top: 22px;
+}
+
+.container {
+    width: 396px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 18px 16px 24px;
+    margin-top: 44px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.row-sm {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin: 0px 0px 16px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid #dddfe2;
+}
+.row-sm-sub {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin: 0px 0px 16px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+
+.row-sm-1 {
+    background-color: #0866ff;
+    color: white;
+    cursor: pointer;
+}
+.row-sm-2 {
+    margin-bottom: 16px;
+    font-size: 14px;
+    text-align: center;
+    color: #0866ff;
+
+}
+
+.row-sm-2 a {
+    text-decoration: none;
+}
+.row-sm-2:hover a {
+    text-decoration: underline;
+}
+
+/*Horizontal-line*/
+ .horiz{
+    border: 1px solid #dadde1;
+ }
+.row-sm-3 {
+   background-color:#42b72a;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 14px 17px;
+   font-weight: 600;
+   font-size: 17px;
+   border-style: none;
+   border-radius: 5px;
+   margin-top: 28px;
+}
+.row-sm-3 a {
+    text-decoration: none;
+    color: white;
+}
+.row-sm-3:hover {
+    background-color: #39a723;
+}
+
+/*Last Description*/
+.last-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    font-size: 14px;
+}
+
+/*Responsive web design*/
+@media screen and (max-width:980px) {
+    .main-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 1120px){
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+   
+  }
+  .side-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .side-1 .fb-contain {
+    text-align: center;
+    padding-bottom: 17px;
+  }
+  .side-1>.desc {
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 380px;
+    color: #1c1e21;
+  }
+  .side-2 {
+    margin-top: 35px;
+  }
+}
+
+
+
+.user-profile-icon {
+    height: 44px;
+    width: 44px;
+}
